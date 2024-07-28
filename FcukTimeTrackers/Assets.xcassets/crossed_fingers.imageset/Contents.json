@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "crossed_fingers.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

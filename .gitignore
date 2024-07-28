@@ -1,0 +1,118 @@
+.idea
+
+# Xcode
+#
+# https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/XcodeUserGuide/GettingStarted/GettingStarted.html
+
+# Xcode build folder
+build/
+DerivedData/
+
+# Xcode workspace
+*.xcworkspace
+
+# Xcode project
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Xcode schemes
+*.xcscheme
+*.xcschemes
+
+# Xcode user data
+*.xcuserdatad/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/metadata
+fastlane/Podfile.lock
+
+# Bundle artifact
+*.xcuserstate
+
+# Device and simulator data
+*.app/
+*.app.dSYM/
+*.ipa
+*.dSYM/
+
+# IDE-specific files
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+
+# macOS Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two newline characters
+Icon?
+
+# Thumbnails
+._*
+
+# Private Application Data
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.tmp
+*.bak
+
+# Logs
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Crash reports
+*.crash
+
+# User-specific files
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM files
+/.build/
+
+# Other files to ignore
+*.moved-aside
+*.swp
+*.swo
+
+# macOS App files
+*.app
+*.dmg
+*.pkg
+*.xip
+*.sublime-workspace
+*.sublime-project
+*.tmp
+
+# Xcode archive
+*.xcarchive/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+playground.xcuserstate

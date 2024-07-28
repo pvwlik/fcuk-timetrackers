@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB083C9A2C5406AD00EEE331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB083C992C5406AD00EEE331 /* AppDelegate.swift */; };
+		CB083C9C2C540AB800EEE331 /* FcukTimeTrackersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB083C9B2C540AB800EEE331 /* FcukTimeTrackersApp.swift */; };
+		CB083CA62C5420C300EEE331 /* EventSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB083CA52C5420C300EEE331 /* EventSimulator.swift */; };
+		CB9074172C53F9B9000B81FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9074162C53F9B9000B81FE /* Assets.xcassets */; };
+		CB90741A2C53F9B9000B81FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9074192C53F9B9000B81FE /* Preview Assets.xcassets */; };
+		CBA891EE2C558A05001DB12D /* CommandGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891DF2C558A05001DB12D /* CommandGenerator.swift */; };
+		CBA891EF2C558A05001DB12D /* KeyboardSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E02C558A05001DB12D /* KeyboardSimulator.swift */; };
+		CBA891F02C558A05001DB12D /* MouseSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E12C558A05001DB12D /* MouseSimulator.swift */; };
+		CBA891F12C558A05001DB12D /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E22C558A05001DB12D /* RandomGenerator.swift */; };
+		CBA891F22C558A05001DB12D /* ScriptRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E32C558A05001DB12D /* ScriptRunner.swift */; };
+		CBA891F32C558A05001DB12D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E52C558A05001DB12D /* SessionManager.swift */; };
+		CBA891F42C558A05001DB12D /* CustomTimeMenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E72C558A05001DB12D /* CustomTimeMenuBuilder.swift */; };
+		CBA891F52C558A05001DB12D /* IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E82C558A05001DB12D /* IconManager.swift */; };
+		CBA891F62C558A05001DB12D /* MenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891E92C558A05001DB12D /* MenuBuilder.swift */; };
+		CBA891F72C558A05001DB12D /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891EA2C558A05001DB12D /* MenuManager.swift */; };
+		CBA891F82C558A05001DB12D /* TimeMenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891EB2C558A05001DB12D /* TimeMenuBuilder.swift */; };
+		CBA891F92C558A05001DB12D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA891EC2C558A05001DB12D /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9074212C53F9B9000B81FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9074072C53F9B8000B81FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB90740E2C53F9B8000B81FE;
+			remoteInfo = FcukTimeTrackers;
+		};
+		CB90742B2C53F9B9000B81FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9074072C53F9B8000B81FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB90740E2C53F9B8000B81FE;
+			remoteInfo = FcukTimeTrackers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB083C992C5406AD00EEE331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB083C9B2C540AB800EEE331 /* FcukTimeTrackersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FcukTimeTrackersApp.swift; sourceTree = "<group>"; };
+		CB083CA52C5420C300EEE331 /* EventSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSimulator.swift; sourceTree = "<group>"; };
+		CB90740F2C53F9B8000B81FE /* FcukTimeTrackers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FcukTimeTrackers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9074162C53F9B9000B81FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9074192C53F9B9000B81FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB90741B2C53F9B9000B81FE /* FcukTimeTrackers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FcukTimeTrackers.entitlements; sourceTree = "<group>"; };
+		CB9074202C53F9B9000B81FE /* FcukTimeTrackersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FcukTimeTrackersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB90742A2C53F9B9000B81FE /* FcukTimeTrackersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FcukTimeTrackersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA891DF2C558A05001DB12D /* CommandGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandGenerator.swift; sourceTree = "<group>"; };
+		CBA891E02C558A05001DB12D /* KeyboardSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardSimulator.swift; sourceTree = "<group>"; };
+		CBA891E12C558A05001DB12D /* MouseSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseSimulator.swift; sourceTree = "<group>"; };
+		CBA891E22C558A05001DB12D /* RandomGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
+		CBA891E32C558A05001DB12D /* ScriptRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptRunner.swift; sourceTree = "<group>"; };
+		CBA891E52C558A05001DB12D /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		CBA891E72C558A05001DB12D /* CustomTimeMenuBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTimeMenuBuilder.swift; sourceTree = "<group>"; };
+		CBA891E82C558A05001DB12D /* IconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconManager.swift; sourceTree = "<group>"; };
+		CBA891E92C558A05001DB12D /* MenuBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBuilder.swift; sourceTree = "<group>"; };
+		CBA891EA2C558A05001DB12D /* MenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		CBA891EB2C558A05001DB12D /* TimeMenuBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMenuBuilder.swift; sourceTree = "<group>"; };
+		CBA891EC2C558A05001DB12D /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB90740C2C53F9B8000B81FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90741D2C53F9B9000B81FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9074272C53F9B9000B81FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9074062C53F9B8000B81FE = {
+			isa = PBXGroup;
+			children = (
+				CB9074112C53F9B8000B81FE /* FcukTimeTrackers */,
+				CB9074102C53F9B8000B81FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9074102C53F9B8000B81FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB90740F2C53F9B8000B81FE /* FcukTimeTrackers.app */,
+				CB9074202C53F9B9000B81FE /* FcukTimeTrackersTests.xctest */,
+				CB90742A2C53F9B9000B81FE /* FcukTimeTrackersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9074112C53F9B8000B81FE /* FcukTimeTrackers */ = {
+			isa = PBXGroup;
+			children = (
+				CBA891ED2C558A05001DB12D /* Menu */,
+				CBA891E42C558A05001DB12D /* Script */,
+				CBA891E62C558A05001DB12D /* Session */,
+				CB9074162C53F9B9000B81FE /* Assets.xcassets */,
+				CB90741B2C53F9B9000B81FE /* FcukTimeTrackers.entitlements */,
+				CB9074182C53F9B9000B81FE /* Preview Content */,
+				CB083C992C5406AD00EEE331 /* AppDelegate.swift */,
+				CB083C9B2C540AB800EEE331 /* FcukTimeTrackersApp.swift */,
+				CB083CA52C5420C300EEE331 /* EventSimulator.swift */,
+			);
+			path = FcukTimeTrackers;
+			sourceTree = "<group>";
+		};
+		CB9074182C53F9B9000B81FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB9074192C53F9B9000B81FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBA891E42C558A05001DB12D /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				CBA891DF2C558A05001DB12D /* CommandGenerator.swift */,
+				CBA891E02C558A05001DB12D /* KeyboardSimulator.swift */,
+				CBA891E12C558A05001DB12D /* MouseSimulator.swift */,
+				CBA891E22C558A05001DB12D /* RandomGenerator.swift */,
+				CBA891E32C558A05001DB12D /* ScriptRunner.swift */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		CBA891E62C558A05001DB12D /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				CBA891E52C558A05001DB12D /* SessionManager.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		CBA891ED2C558A05001DB12D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CBA891E72C558A05001DB12D /* CustomTimeMenuBuilder.swift */,
+				CBA891E82C558A05001DB12D /* IconManager.swift */,
+				CBA891E92C558A05001DB12D /* MenuBuilder.swift */,
+				CBA891EA2C558A05001DB12D /* MenuManager.swift */,
+				CBA891EB2C558A05001DB12D /* TimeMenuBuilder.swift */,
+				CBA891EC2C558A05001DB12D /* Utility.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB90740E2C53F9B8000B81FE /* FcukTimeTrackers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9074342C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackers" */;
+			buildPhases = (
+				CB90740B2C53F9B8000B81FE /* Sources */,
+				CB90740C2C53F9B8000B81FE /* Frameworks */,
+				CB90740D2C53F9B8000B81FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FcukTimeTrackers;
+			productName = FcukTimeTrackers;
+			productReference = CB90740F2C53F9B8000B81FE /* FcukTimeTrackers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB90741F2C53F9B9000B81FE /* FcukTimeTrackersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9074372C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackersTests" */;
+			buildPhases = (
+				CB90741C2C53F9B9000B81FE /* Sources */,
+				CB90741D2C53F9B9000B81FE /* Frameworks */,
+				CB90741E2C53F9B9000B81FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9074222C53F9B9000B81FE /* PBXTargetDependency */,
+			);
+			name = FcukTimeTrackersTests;
+			productName = FcukTimeTrackersTests;
+			productReference = CB9074202C53F9B9000B81FE /* FcukTimeTrackersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9074292C53F9B9000B81FE /* FcukTimeTrackersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB90743A2C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackersUITests" */;
+			buildPhases = (
+				CB9074262C53F9B9000B81FE /* Sources */,
+				CB9074272C53F9B9000B81FE /* Frameworks */,
+				CB9074282C53F9B9000B81FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB90742C2C53F9B9000B81FE /* PBXTargetDependency */,
+			);
+			name = FcukTimeTrackersUITests;
+			productName = FcukTimeTrackersUITests;
+			productReference = CB90742A2C53F9B9000B81FE /* FcukTimeTrackersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9074072C53F9B8000B81FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CB90740E2C53F9B8000B81FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CB90741F2C53F9B9000B81FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB90740E2C53F9B8000B81FE;
+					};
+					CB9074292C53F9B9000B81FE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CB90740E2C53F9B8000B81FE;
+					};
+				};
+			};
+			buildConfigurationList = CB90740A2C53F9B8000B81FE /* Build configuration list for PBXProject "FcukTimeTrackers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9074062C53F9B8000B81FE;
+			productRefGroup = CB9074102C53F9B8000B81FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB90740E2C53F9B8000B81FE /* FcukTimeTrackers */,
+				CB90741F2C53F9B9000B81FE /* FcukTimeTrackersTests */,
+				CB9074292C53F9B9000B81FE /* FcukTimeTrackersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB90740D2C53F9B8000B81FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB90741A2C53F9B9000B81FE /* Preview Assets.xcassets in Resources */,
+				CB9074172C53F9B9000B81FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90741E2C53F9B9000B81FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9074282C53F9B9000B81FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB90740B2C53F9B8000B81FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA891F22C558A05001DB12D /* ScriptRunner.swift in Sources */,
+				CBA891F82C558A05001DB12D /* TimeMenuBuilder.swift in Sources */,
+				CB083CA62C5420C300EEE331 /* EventSimulator.swift in Sources */,
+				CBA891EF2C558A05001DB12D /* KeyboardSimulator.swift in Sources */,
+				CBA891F42C558A05001DB12D /* CustomTimeMenuBuilder.swift in Sources */,
+				CBA891F92C558A05001DB12D /* Utility.swift in Sources */,
+				CBA891F12C558A05001DB12D /* RandomGenerator.swift in Sources */,
+				CBA891F62C558A05001DB12D /* MenuBuilder.swift in Sources */,
+				CB083C9A2C5406AD00EEE331 /* AppDelegate.swift in Sources */,
+				CBA891F02C558A05001DB12D /* MouseSimulator.swift in Sources */,
+				CB083C9C2C540AB800EEE331 /* FcukTimeTrackersApp.swift in Sources */,
+				CBA891F52C558A05001DB12D /* IconManager.swift in Sources */,
+				CBA891F72C558A05001DB12D /* MenuManager.swift in Sources */,
+				CBA891EE2C558A05001DB12D /* CommandGenerator.swift in Sources */,
+				CBA891F32C558A05001DB12D /* SessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB90741C2C53F9B9000B81FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9074262C53F9B9000B81FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9074222C53F9B9000B81FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB90740E2C53F9B8000B81FE /* FcukTimeTrackers */;
+			targetProxy = CB9074212C53F9B9000B81FE /* PBXContainerItemProxy */;
+		};
+		CB90742C2C53F9B9000B81FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB90740E2C53F9B8000B81FE /* FcukTimeTrackers */;
+			targetProxy = CB90742B2C53F9B9000B81FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB9074322C53F9B9000B81FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB9074332C53F9B9000B81FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CB9074352C53F9B9000B81FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FcukTimeTrackers/FcukTimeTrackers.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FcukTimeTrackers/Preview Content\"";
+				DEVELOPMENT_TEAM = 3D5J693XAB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CB9074362C53F9B9000B81FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FcukTimeTrackers/FcukTimeTrackers.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FcukTimeTrackers/Preview Content\"";
+				DEVELOPMENT_TEAM = 3D5J693XAB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CB9074382C53F9B9000B81FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FcukTimeTrackers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FcukTimeTrackers";
+			};
+			name = Debug;
+		};
+		CB9074392C53F9B9000B81FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FcukTimeTrackers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FcukTimeTrackers";
+			};
+			name = Release;
+		};
+		CB90743B2C53F9B9000B81FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FcukTimeTrackers;
+			};
+			name = Debug;
+		};
+		CB90743C2C53F9B9000B81FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmakit.FcukTimeTrackersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FcukTimeTrackers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB90740A2C53F9B8000B81FE /* Build configuration list for PBXProject "FcukTimeTrackers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9074322C53F9B9000B81FE /* Debug */,
+				CB9074332C53F9B9000B81FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9074342C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9074352C53F9B9000B81FE /* Debug */,
+				CB9074362C53F9B9000B81FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9074372C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9074382C53F9B9000B81FE /* Debug */,
+				CB9074392C53F9B9000B81FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB90743A2C53F9B9000B81FE /* Build configuration list for PBXNativeTarget "FcukTimeTrackersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB90743B2C53F9B9000B81FE /* Debug */,
+				CB90743C2C53F9B9000B81FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9074072C53F9B8000B81FE /* Project object */;
+}
