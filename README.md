@@ -1,6 +1,6 @@
 # FcukTimeTrackers
 
-[![GitHub release](https://img.shields.io/github/release/eban-programmist/fcuk-timetrackers.svg)](https://github.com/eban-programmist/fcuk-timetrackers/releases)
+[![GitHub release](https://img.shields.io/github/release/pvwlik/fcuk-timetrackers.svg)](https://github.com/pvwlik/fcuk-timetrackers/releases)
 
 <img src="FcukTimeTrackers/Assets.xcassets/AppIcon.appiconset/1024-mac.png" alt="FcukTimeTrackers Icon" width="100" height="100"/> 
 FcukTimeTrackers is here to help you pretend to work while you're busy doing... literally anything else. This macOS app simulates random mouse and keyboard activity to trick time tracking software into thinking you're hard at work.  
@@ -17,7 +17,7 @@ FcukTimeTrackers is here to help you pretend to work while you're busy doing... 
 
 ### Download the App
 
-1. Head over to the [Releases](https://github.com/eban-programmist/FcukTimeTrackers/releases) page.
+1. Head over to the [Releases](https://github.com/pvwlik/FcukTimeTrackers/releases) page.
 2. Download the latest `.dmg` or `.zip` file.
 3. Open the downloaded file and drag `FcukTimeTrackers.app` to your Applications folder.
 
