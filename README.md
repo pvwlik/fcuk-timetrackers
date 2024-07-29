@@ -17,7 +17,7 @@ FcukTimeTrackers is here to help you pretend to work while you're busy doing... 
 
 ### Download the App
 
-1. Head over to the [Releases](https://github.com/pvwlik/FcukTimeTrackers/releases) page.
+1. Head over to the [Releases](https://github.com/pvwlik/fcuk-timetrackers/releases) page.
 2. Download the latest `.dmg` or `.zip` file.
 3. Open the downloaded file and drag `FcukTimeTrackers.app` to your Applications folder.
 
