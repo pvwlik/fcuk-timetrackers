@@ -1,9 +1,11 @@
-# fcuk-timetrackers
+# FcukTimeTrackers
 
 [![GitHub release](https://img.shields.io/github/release/eban-programmist/fcuk-timetrackers.svg)](https://github.com/eban-programmist/fcuk-timetrackers/releases)
 
-FcukTimeTrackers is here to help you pretend to work while you're busy doing... literally anything else. This macOS app simulates random mouse and keyboard activity to trick time tracking software into thinking you're hard at work.
+<img src="FcukTimeTrackers/Assets.xcassets/AppIcon.appiconset/1024-mac.png" alt="FcukTimeTrackers Icon" width="100" height="100"/> 
+FcukTimeTrackers is here to help you pretend to work while you're busy doing... literally anything else. This macOS app simulates random mouse and keyboard activity to trick time tracking software into thinking you're hard at work.  
 
+  
 ## What It Does
 
 - **Fake Work**: Simulates random `Cmd+Tab` events to make it look like you're switching between applications.
