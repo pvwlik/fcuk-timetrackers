@@ -5,6 +5,13 @@
 <img src="FcukTimeTrackers/Assets.xcassets/AppIcon.appiconset/1024-mac.png" alt="FcukTimeTrackers Icon" width="100" height="100"/> 
 FcukTimeTrackers is here to help you pretend to work while you're busy doing... literally anything else. This macOS app simulates random mouse and keyboard activity to trick time tracking software into thinking you're hard at work.  
 
+## Donate if this made your life easier
+
+<a href="https://boosty.to/puvik/donate" target="_blank">
+ <img src="https://github.com/pvwlik/pvwlik/blob/main/boosty.png" height="40" alt="Boosty"> </br>
+</a>
+
+---
   
 ## What It Does
 
