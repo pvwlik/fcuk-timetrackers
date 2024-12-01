@@ -7,9 +7,18 @@ FcukTimeTrackers is here to help you pretend to work while you're busy doing... 
 
 ## Donate if this made your life easier
 
-<a href="https://boosty.to/puvik/donate" target="_blank">
- <img src="https://github.com/pvwlik/pvwlik/blob/main/boosty.png" height="40" alt="Boosty"> </br>
-</a>
+<div style="display: inline-flex;">
+  <a href="https://boosty.to/puvik/donate" target="_blank">
+    <img src="https://github.com/pvwlik/pvwlik/blob/main/boosty.png" height="40" alt="Boosty">
+  </a>
+  <span>
+   <img width=20/>
+  </span>
+  <a href="https://nowpayments.io/donation/puvlik" target="_blank">
+    <img src="https://github.com/pvwlik/pvwlik/blob/main/nowpayments.svg" height="40" alt="Crypto donation button by NOWPayments">
+  </a>
+</div>
+
 
 ---
   
